@@ -1,0 +1,1335 @@
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Adjust as needed */
+    background-color: #000; /* Background color to contrast particles */
+}
+
+.particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensures particles appear behind content */
+}
+
+.parallax-content {
+    position: relative;
+    z-index: 2; /* Ensures content appears above particles */
+    color: #fff !important; /* Content color contrast */
+    padding: 50px;
+}
+
+/* style css
+*/
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif; /* or 'Oswald', sans-serif */
+  font-weight: 700; /* Bold weight for emphasis */
+  justify-content: center;
+  text-align: center;
+  color: rgb(3, 13, 105) ;}
+  p, body {
+    font-family: 'Source Sans Pro', sans-serif; /* or 'Roboto Slab', serif */
+    font-weight: 400; /* Regular weight for readability */
+    line-height: 1.6; /* Good spacing for readability */}
+
+.blog-container h2{
+  color: rgb(3, 13, 105) ;
+}
+.blog h2{
+  color: rgb(3, 13, 105) ;
+}
+/* preloader */
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.my-nav{
+  background: transparent;
+}
+/* button */
+.mode-btn{
+  padding: auto;
+  margin-left: 150px;
+  border-radius: 50%;
+
+}
+.buttonblu {
+  background-color: blue;
+  color: white;
+  float:right;
+  margin-left: 150px;
+}
+.buttonblu :hover{
+  background-color: blue;
+  
+}
+
+
+/* ##### parllax image ##### */
+/* Container for the parallax effect */
+/* Parallax Image Styles */
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 400px; /* Default height, adjust as necessary */
+}
+
+.parallax-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover !important;
+  background-position: center;
+  z-index: -1; /* Ensure the image is behind the content */
+  transform: translateZ(0); /* For smooth scrolling */
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 1; /* Ensure the text is above the image */
+  text-align: center;
+  color: white;
+  
+  padding: 150px 20px; /* Adjust padding to center text vertically */
+}
+
+  /*###  first content #####  */
+ 
+
+
+.first-content {
+    color: white;
+   
+    padding-top: 150px;
+   float: left;
+}
+
+.button-group .btn-primary {
+    margin-right: 10px;
+}
+  
+  
+
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0; /* Ensure particles are behind the content */
+}
+
+/* Navbar styling */
+.navbar {
+  background: transparent; /* Transparent background */
+  box-shadow: none; /* Remove any shadow */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: white; /* White text for navbar links and brand */
+}
+
+/* Parallax container styling */
+.parallax-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Particles background styling */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('final-para.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Content styling */
+.parallax-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center; /* Vertically center content */
+  height: 100%; /* Full height of the container */
+  padding-left: 20px; /* Add padding on the left to align content */
+}
+
+/* First section styling */
+.first-section {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 20px;
+  max-width: 500px; /* Set a max width to avoid stretching */
+}
+
+.first-content h1 {
+  color: white;
+}
+
+.first-content p {
+  color: white;
+}
+
+/* Button group styling */
+.button-group .btn-primary {
+  margin-right: 10px;
+}
+/* particles */
+/* styles.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/final-para.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.paralax-one {
+  width: 100%;
+ 
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+.first-section {
+  background: transparent;
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+.first-img img {
+  width: 100%;
+}
+
+.first-content {
+  color: white;
+}
+
+.button-group .btn-primary {
+  margin-right: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: calc(33.333% - 40px);
+  box-sizing: border-box;
+}
+
+
+ 
+  /* Service Container */
+.service-container {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  align-items: stretch; /* Make sure all cards have the same height */
+  text-align: center;
+  margin-bottom: 20px; /* Space between rows */
+}
+
+/* Service Card */
+.service {
+  background-color: #f8f8f8; /* Optional: Add background color for cards */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Ensure all cards have the same width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px; /* Set a max-width if needed */
+  height: 350px; /* Set a fixed height for uniformity */
+}
+.service:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Card Image */
+.service img {
+  width: 100px; /* Set a uniform width */
+  height: 100px; /* Set a uniform height */
+  object-fit: cover; /* Maintain aspect ratio, cover the space */
+  margin-bottom: 20px; /* Space between image and heading */
+}
+
+/* Card Heading */
+.service h2 {
+  color: rgb(3, 13, 105);
+  font-weight: bold;
+  margin-bottom: 10px; /* Space between heading and paragraph */
+}
+
+/* Card Paragraph */
+.service p {
+  flex-grow: 1; /* Make the paragraph grow to fill the remaining space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 10px; /* Optional: Add padding for text */
+}
+
+
+/* Container for all solutions */
+.solutions-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Individual solution box */
+.solution {
+  flex: 1;
+  min-width: 200px; /* Ensure minimum width for small screens */
+  max-width: 300px; /* Optional: Limit the maximum width */
+  /* border:1px solid rgb(72, 222, 233); */
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on the solution box */
+.solution:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Solution image container */
+.sol-image-container {
+  margin-bottom: 15px;
+}
+
+.sol-image-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Solution title */
+.solution h3 {
+  background: linear-gradient(to bottom, #0000ff 3%, #00ccff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Style for list items */
+ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style for links in the footer */
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Hover effect for footer links */
+footer ul li a:hover {
+  color: rgb(3, 13, 105);
+  text-decoration: underline;
+}
+.sol-image-container img:hover {
+  transform: scale(1.05); /* Increase the image size slightly */
+  transition: transform 0.3s ease;
+}
+/* ##### hover effect ##### */
+/* Base styles for solution cards */
+.solution {
+  background-color: #fff;
+  color: black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add initial shadow */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for solution cards */
+.solution:hover {
+  background-color: #74c4cc; /* Change background color on hover */
+  color: white; /* Change text color to white on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* "Techohash" text appearing on hover */
+.solution::after {
+  content: "Techohash";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show "Techohash" on hover */
+.solution:hover::after {
+  opacity: 1;
+}
+/* Stronger shadow for visibility */
+.solution {
+  background-color: #fff;
+  color: black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Enhanced hover shadow */
+.solution:hover {
+  background-color: #74c4cc; /* Change background color on hover */
+  color: white; /* Change text color to white on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* Even stronger shadow on hover */
+}
+.sol-bottom ul{
+  justify-content: left;
+}
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .solutions-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .solution {
+      max-width: 90%; /* Adjust the width for smaller screens */
+  }
+  .sol-image-container img:hover {
+    transform: none; /* Disable the scaling effect */
+}
+}
+
+/* #####section - why choose us----##### */
+.wcu {
+  display: flex;
+  justify-content: center; /* Center the entire content */
+  align-items: center; /* Vertically center the items */
+  gap: 5px; /* Add some space between the sections */
+  padding: 30px 10px;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.wcu-1, .wcu-img, .wcu-2 {
+  flex: 1; /* Ensure equal width */
+  text-align: center; /* Center align text within each section */
+}
+
+.wcu img {
+  width: 50px;
+  height: 50px;
+}
+
+.wcu-img img {
+  width: 100%; /* Make the image responsive within its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 300px; /* Set a maximum width */
+}
+
+.wcu-1 h2, .wcu-2 h2 {
+  color: rgb(3, 13, 105);
+}
+
+.feedback-name {
+  color: rgb(3, 13, 105);
+}
+
+.frame-panel {
+  padding-top: 35px;
+  text-align: center; /* Center align the heading */
+}
+
+.frame-panel h1 {
+  font-size: 45px;
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* ================================
+======================================================
+=
+=================================
+============================================
+===========================
+=====================================
+==================================================== */
+.my-bd{
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+}
+/* #####Another parrallax###### */
+.paral-2-container{
+  background-image: url('images/parallex-2-final.JPG'); /* Ensure this path is correct */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  padding: 40px 0;
+  position: relative;
+  display: flex;
+}
+.total-paral-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.total-paral-2 img{
+  width: 70px;
+  height: 70px;
+}
+.total-paral-2 h2{
+  font-size: 45px;
+  padding: 5px;
+}
+.total-paral-2 h3{
+  font-size: 35px;
+ 
+}
+/* ########### Swipe --slider -carousel  ----#######*/
+.swipe-carousel-container {
+  width: 1300px; /* 300px * 5 images */
+  overflow: hidden;
+  padding: 30px;
+}
+
+.swipe-carousel {
+  display: flex;
+  width: calc(1500px * 2); /* Adjust width based on number of image sets */
+  animation: swipe 10s infinite;
+}
+
+.swipe-image-set {
+  display: flex;
+  width: 1500px; /* 300px * 5 images */
+}
+
+.swipe-carousel img {
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+}
+
+@keyframes swipe {
+  0%, 25% {
+      transform: translateX(0);
+  }
+  50%, 75% {
+      transform: translateX(-1500px); /* Swipe to show the next set of 5 images */
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+/* #################### Testimonial ################### */
+/* Default styles (for screens 768px and above) */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.feedback-carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.feedback-slide {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.feedback-item {
+  flex-basis: 30%;
+ 
+  padding: 20px;
+  margin: 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+  
+}
+
+.feedback-name {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: rgb(3, 13, 105);
+}
+
+.feedback-stars {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.feedback-text {
+  font-size: 1em;
+  color: black;
+}
+
+.carousel-indicators {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.indicator {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #333;
+}
+
+/* Media query for screens below 768px */
+@media (max-width: 768px) {
+  .feedback-carousel {
+    flex-direction: row;
+    transform: translateX(0);
+  }
+
+  .feedback-slide {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .feedback-item {
+    flex-basis: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+   
+   
+  }
+
+  .feedback-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .carousel-container {
+    overflow: hidden;
+  }
+
+  .carousel-indicators {
+    display: flex;
+    justify-content: center;
+  }
+
+  .feedback-slide {
+    flex-basis: 100%;
+  }
+}
+/* ##### mbl testimnial  */
+.mbl-carousel-container {
+  display: none;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mbl-carousel-item {
+  display: none;
+  text-align: left;
+  padding: 10px;
+}
+
+.mbl-carousel-item.mbl-active {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .mbl-carousel-container {
+    display: block;
+  }
+}
+.carousel-container {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    display: none;
+  }
+}
+.carousel-container {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    display: none;
+  }
+}
+.carousel-container {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    display: none;
+  }
+}
+/*  */
+.carousel-container {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    display: none;
+  }
+}
+
+
+/* ####### Team ######### */
+.slate{
+  background-color: rgb(240, 244, 250);
+  padding-top: 0;
+  margin-top: 0;
+}
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.team {
+  margin: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.team img {
+  width: 150px;
+  height: 150px;
+ 
+ 
+}
+
+.team .name {
+  color: darkblue;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.team .profession {
+  color: grey;
+}
+
+.team .more-info {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.team .more-info:hover {
+  color: darkred;
+}
+
+@media (max-width: 768px) {
+  .team-container {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+/* ####### faqs section###### */
+.total-faq p {
+  justify-content: center;
+  align-items: center ;
+  text-align: center;
+  color: rgb(3, 13, 105);
+}
+
+.faq {
+  max-width: 800px; /* Maximum width of the FAQ container */
+  margin: 0 auto;
+}
+
+.faq-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 20px; /* Adjust padding as needed */
+  position: relative;
+  max-width: 100%; /* Ensure the FAQ item is responsive */
+  margin: 10px auto; /* Center the FAQ items */
+  box-sizing: border-box; /* Include padding and border in width */
+  background-color: rgb(240, 244, 250);
+}
+
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: blue;
+  background-color: rgb(240, 244, 250);
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+  color: black;
+  background-color: rgb(240, 244, 250);
+}
+
+.toggle-sign {
+  font-size: 24px;
+  line-height: 1;
+  color: #007BFF;
+  transition: transform 0.2s ease;
+}
+
+.toggle-sign.minus {
+  transform: rotate(45deg);
+  color: #FF5733;
+}
+
+/* Styling for the 'click here' link */
+.faq-answer a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.faq-answer a:hover {
+  text-decoration: underline;
+}
+/* again parrallax */
+.again-parall{
+  background-image: url('images/parallex-2-final.JPG'); /* Ensure this path is correct */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff !important;
+  padding: 40px 0;
+  position: relative;
+}
+.button {
+  background-color: blue;
+  color: white;
+  justify-content: center !important;
+  align-items: center !important;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Ensure the parent container is a flex container and centers its content */
+.again-parall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh; /* Full viewport height */
+}
+
+/* Optional: style adjustments for the text alignment */
+.another .container {
+  text-align: center;
+}
+/* ######## Blog section ##### */
+.blog-container{
+  display: flex;
+}
+/* Style for the blog container to use Flexbox */
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust spacing between cards as needed */
+  justify-content: space-between; /* Distribute space evenly */
+  padding: 30px;
+}
+
+/* Style for each blog card */
+.blog {
+  flex: 1 1 calc(33.333% - 20px); /* Adjust width of each card; subtracting gap width */
+  
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 8px; /* Optional: for rounded corners */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  background-color: #fff; /* Optional: background color */
+  padding: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  border-radius: 15px;
+}
+
+/* Style for images to be responsive and cover the card width */
+.blog img {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+  border-radius: 15px;
+}
+
+/* Style for blog titles and content */
+.blog h2 {
+  font-size: 1.5rem;
+  margin: 10px 15px; /* Adjust margin as needed */
+  color: blue;
+}
+.solutions-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 10px;
+  padding: 10px;
+}
+
+.blog p {
+  font-size: 1rem;
+  margin: 0 15px 15px; /* Adjust margin as needed */
+  color: black;
+}
+
+.blog h3 {
+  font-size: 0.875rem;
+  margin: 0 15px 15px; /* Adjust margin as needed */
+  color: black;
+}
+/* blog marqee */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee {
+  display: flex;
+  width: calc(14 * 200px); /* Adjust 200px according to your image width */
+  animation: marquee 20s linear infinite;
+}
+
+.marquee img {
+  width: 270px; /* Adjust according to your image size */
+  height: auto;
+}
+
+@keyframes marquee {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
+
+/*########## Section contact ########## */
+.contact-section {
+  text-align: center;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #007bff; /* Adjust background color as needed */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding */
+  margin: 10px; /* Spacing between buttons */
+  cursor: pointer;
+  font-size: 16px; /* Adjust font size */
+  text-decoration: none;
+}
+
+.button img {
+  margin-right: 8px; /* Space between icon and text */
+  width: 20px; /* Adjust icon size */
+  height: 20px;
+}
+/* contact cards */
+.contact ul,li{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* ########## footer ########### */
+/* Parallax Footer */
+.parallax-footer {
+    background-image: url('images/final-parallax-dark.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+  }
+  
+  .parallax-footer .container {
+    position: relative;
+    z-index: 1;
+  }
+  .footer h3{
+    color: blue;
+    font-weight: bold;
+  }
+  .footer-bottom {
+   
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+  }
+ 
+  .newsletter {
+    margin-top: 20px;
+  }
+  
+  .newsletter form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  /*================================================================================================================================================================================
+  =============================================responsivenes css ==========================================================================================*/
+  /* Responsive Design */
+@media (max-width: 768px) {
+  
+    .footer .row {
+      flex-direction: column;
+    }
+  
+    .footer .row .col-md-4 {
+      margin-bottom: 20px;
+    }
+    body{
+      
+      margin: 0 ;
+      padding: 0 ;
+      overflow-x: hidden ;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .total-container{
+      box-sizing: border-box  ;
+      margin: 0 ;
+      padding: 0 ;
+      overflow-x: hidden ;
+      margin-left: 0 ;
+      margin-right: 0 ;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .parallax-content{
+      justify-content: center;
+      align-items: center;
+      text-align: center !important;
+      padding: 10px;
+      overflow-x: hidden ;
+      margin-left: 0 ;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    .service-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+    }
+    .service{
+      width: 100%;
+      justify-content: center;
+align-items: center ;
+text-align: center ;
+
+    }
+    .service img{
+   
+      justify-content: center;
+      align-items: center ;
+      text-align: center;
+      
+    }
+    .frame-panel{
+      justify-content: center;
+      align-items: center ;
+      text-align: center;
+     
+    }
+    .wcu{
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+    
+    }
+    .wcu-1{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+ 
+    }
+    .solutions-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+    }
+    .solution{
+     width: 80%;
+     padding-left: 0;
+     padding-right: 0;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center ;
+    
+    }
+    .feedback-carousel {
+      transform: translateX(0); /* Ensure the carousel starts at the first item */
+    }
+  
+    .feedback-slide {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .feedback-item {
+      flex-basis: 100%; /* Each item takes full width */
+      max-width: 100%;
+      margin: 0 auto; /* Center the item */
+      padding: 20px;
+      overflow-x: hidden;
+      margin-left: 0% ;
+      margin-right: 0% ;
+      padding-left: 0% ;
+      padding-right: 0% ;
+    }
+  
+    .feedback-carousel {
+      flex-wrap: nowrap;
+      overflow-x: hidden ;
+      margin-left: 0 ;
+      margin-right: 0;
+      padding-left: 0 ;
+      padding-right: 0;
+    }
+  
+    .indicator {
+      display: inline-block; /* Show indicators */
+    }
+    .feedback-text{
+      font-size: 13px;
+      overflow-x: hidden ;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+   /* another parrllax */
+   .paral-1 h2,h3{
+    font-size: 15px;
+   }
+   .paral-2 h2,h3{
+    font-size: 15px;
+   }
+   .paral-3 h2,h3{
+    font-size: 15px;
+   }
+   .total-paral-2{
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+   
+    align-items: center;
+    text-align: center;
+   }
+   .paral-1 img{
+    width: 50px;
+    height: 50px;
+   }
+   .paral-2 img{
+   
+    width: 50px;
+    height: 50px;
+   }
+   .paral-3 img{
+    width: 50px;
+    height: 50px;
+   }
+   .swipe-carousel-container{
+    display: none;
+   }
+   .total-faq p {
+    justify-content: center;
+    align-items: center ;
+    text-align: center ;
+   
+   }
+   .faq {
+    width: 100%;
+    overflow-x: hidden;
+   
+    padding: 0%;
+    margin: 0%;
+   }
+   .faq-item{
+    width: 100%;
+   
+    padding: 0;
+    margin: 0;
+   }
+   .another{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+ 
+   }
+   .again-parall{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+ 
+   }
+   .blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   .blog{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+   }
+  }
+   #dark-mode-toggle{
+    justify-content: center ;
+    align-items: center;
+   width: 60px;
+   padding-top: 10px;
+   }
+  
+  
+  

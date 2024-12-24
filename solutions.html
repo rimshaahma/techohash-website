@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore TechoHash's comprehensive hospital management system solutions designed to optimize hospital operations, improve patient care, and ensure regulatory compliance. Our solutions include electronic health records (EHR), patient management, billing, and more.">
+  <meta name="keywords" content="Hospital Management System, HMS Solutions, Electronic Health Records, EHR, Patient Management, Hospital Billing, Healthcare IT Solutions, Clinical Workflow, Healthcare Compliance, TechoHash">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="TechoHash Hospital Management System Solutions">
+  <meta property="og:description" content="Discover TechoHash's advanced HMS solutions that enhance hospital operations and patient care. Our offerings include EHR, patient management, billing, and more, tailored for top-ranking hospital management systems.">
+  <meta property="og:image" content="images/hms-solutions-banner.jpg">
+  <meta property="og:url" content="https://www.techohash.com/solutions.html">
+  <title>TechoHash Hospital Management System Solutions - Optimize Operations & Improve Patient Care</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="particle.css">
+  <link rel="stylesheet" href="mode.css">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="responsiveness.css">
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    .solution-file-container{
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .content-container{
+      display: flex;
+      padding: 10px;
+      margin: 10px;
+      box-sizing: border-box;
+    }
+    .content-img{
+      width: 300px;
+      height: 300px;
+      border-radius: 5px;
+    }
+    /* Container for content */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between text and image */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+}
+
+/* Style for screens wider than 768px */
+@media (min-width: 768px) {
+    .content-container {
+        flex-direction: row; /* Change direction to row */
+    }
+
+    .content-text, .content-img {
+        width: 50%; /* Each takes up half the space */
+    }
+
+    .content-text {
+        display: flex;
+        flex-direction: column; /* Stack heading above paragraph */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Image styling */
+.content-img img {
+    max-width: 100%; /* Ensure the image scales correctly */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Ensure the heading is always above the paragraph */
+.content-text h1 {
+    margin-bottom: 20px; /* Add space between heading and paragraph */
+}
+.swipe-image-set {
+  display: flex;
+  width: 1500px; /* 300px * 5 images */
+  gap: 50px;
+}
+
+.swipe-carousel img {
+  width: 90px !important;
+  height: auto;
+  object-fit: cover;
+}
+
+
+@keyframes swipe {
+  0%, 25% {
+      transform: translateX(0);
+  }
+  50%, 75% {
+      transform: translateX(-1500px); /* Swipe to show the next set of 5 images */
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+.marqee-swipe-carousel-container {
+  width: 1500px; /* 300px * 5 images */
+  overflow: hidden;
+  padding: 30px;
+}
+
+.marqee-swipe-carousel {
+  display: flex;
+  width: calc(1500px * 2); /* Adjust width based on number of image sets */
+  animation: marqee-swipe 10s infinite;
+}
+
+.marqee-swipe-image-set {
+  display: flex;
+  width: 1500px; /* 300px * 5 images */
+  gap: 5px;
+  padding: 15px;
+}
+
+.marqee-swipe-carousel img {
+  width: 300px;
+  padding: 2px;
+  height: 220px;
+  object-fit: fill; /* Stretches or compresses the image to fill the 300px by 300px box */
+}
+
+@keyframes marqee-swipe {
+  0%, 25% {
+      transform: translateX(0);
+  }
+  50%, 75% {
+      transform: translateX(-1500px); /* Swipe to show the next set of 5 images */
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+
+  .f-h{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
+
+</style>
+
+</head>
+
+
+<body>
+  <!-- preloader -->
+   <!-- navbar -->
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><div class="logo"> <img  src="images/techo-logo-removebg-preview.png" loading="lazy" alt="Techohash"></div></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=
+        "#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="
+        Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="solutions.html">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="specialities.html">Specialities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="testimonial.html">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+    <form class="d-flex" role="search">
+            
+            <!-- <button class="btn s buttonblu" type="submit" href="menu.html">Contact us</button> -->
+          </form>
+           <!-- mode btn -->
+           <button id="dark-mode-toggle" class="btn btn-outline-secondary mode-btn" style="border-radius: 50%;">
+            <i id="mode-icon" class="fas fa-moon"></i> 
+        </button>
+  
+        </div>
+      </div>
+    </nav>
+    <div class="total-container">
+    <div class="parallax-container">
+      <div id="particles-js"></div>
+      <div class="parallax-content">
+          <div class="first-section">
+            <div class="first-content">
+              <h1 style="color: blue;">OUR SOLUTIONS</h1>
+              <p>Designed to seamlessly integrate with your facility, Techohash Solutions’s behavioral health EHR offers a complete solution to improve your efficiency, compliance, and profitability.</p>
+              
+          </div>
+          </div>
+      </div>
+  </div>
+  </div>
+<!-- ######### CARDS ################# -->
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb my-bd" style="background-color: #74c4cc;">
+    <li class="breadcrumb-item"><a href="#" style="color: white;">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page" style="color: rgb(3, 13, 105) ;">Solutions</li>
+  </ol>
+</nav>
+
+<div class="content-container">
+  <div class="content-text">
+<h1>Clinical Records Management Benefits</h1>
+<p>TechoHash offers intake-to-discharge control over operations, streamlines clinic functions, guarantees regulatory compliance, and enhances accountability. TechoHash automates patient information input, tracks case progress, guides paperwork completion, and generates a broad range of clinic statistics. With TechoHash, you won’t need to worry about extensive training, gradual implementation, or staff resistance.</p>
+
+  </div>
+  <div class="content-img">
+<img src="new-images/solution-1.JPG" loading="lazy"  alt="">
+  </div>
+</div>
+<div class="content-container">
+ 
+  <div class="content-img">
+    <img src="new-images/solution-2.JPG" loading="lazy" alt="">
+  </div>
+  <div class="content-text">
+    <h1>Better Practice Management</h1>
+    <p>You will find TechoHash in a class by itself when it comes to ease of installation and daily operation. The program requires little maintenance because it was developed for environments with limited (or no) IT resources. Your agency will be up and running on TechoHash quickly. <br>
+      The program’s clever design and functionality will promote itself to staff. Administrators and training directors will also flock to TechoHash because it will give them unparalleled access to practice and caseload information. Powerful customization tools will enable you to tailor much of the program on your own without requiring outside support. If you do require assistance, you will find our support staff available, responsive, and skilled.</p>
+      </div>
+</div>
+<div class="solutions-container">
+  <div class="solution">
+    <div class="sol-image-container">
+     <img src="new-images/markee/sol-img-hims.JPG"  loading="lazy" alt="HIMS ">
+      <h3>HIMS</h3>
+    </div>
+    <div class="sol-bottom">
+      <ul style="  list-style-type: circle;">
+        <li > Clinical Records Management</li>
+        <li>e-Prescribing</li>
+        <li>Clinic Appoint Scheduling</li>
+        <li>Clinic Decision Support</li>
+        <li>Lab Orders and Results</li>
+        <li>Outcome Measures</li>
+        <li>Signature Capture</li>
+       
+      </ul>
+    </div>
+  </div>
+
+  <div class="solution">
+    <div class="sol-image-container">
+     <img src="new-images/markee/d-c.JPG" loading="lazy" alt="HIMS">
+      <h3>Pharmacy</h3>
+    </div>
+    <div class="sol-bottom">
+      <ul>
+       <li>Sale of Day</li>
+        <li>Profit of Day</li>
+        <li>Purchase of Day</li>
+        <li>Stock In Hand(RP)</li>
+        <li>Total Purchase Return</li>
+        <li>Hold Sale</li>
+       
+      </ul>
+    </div>
+  </div>
+
+  <div class="solution">
+    <div class="sol-image-container">
+     <img src="new-images/solution-1.JPG" loading="lazy" alt="HIMS">
+      <h3>Radiology</h3>
+    </div>
+    <div class="sol-bottom">
+      <ul style="justify-content: left;">
+      <li>Total Services</li>
+        <li>Performed</li>
+        <li>Pending</li>
+        <li>Waiting List</li>
+        <li>Report Templates</li>
+        <li>Print Radiology reports</li>
+       
+       
+      </ul>
+    </div>
+  </div>
+
+  <div class="solution">
+    <div class="sol-image-container">
+       <img src="new-images/markee/sol-img-4.JPG" loading="lazy" alt="HIMS">
+      <h3>Nursing Unit</h3>
+    </div>
+    <div class="sol-bottom">
+      <ul>
+       <li>Nursing note template</li>
+        <li>Admission</li>
+        <li>Today OT</li>
+       
+        <li>Discharge Patient</li>
+        <li>Surgery</li>
+        <li>Reports</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="content-container">
+  <div class="content-text">
+    <h1>Clinical Records Management Ease of Use</h1>
+    <p>At the heart of TechoHash success is an interface methodology that is so intuitive and user-friendly that it will require little training for even the most computer-challenged staff. Keep in mind that psychologists, psychiatrists, and clinic administrators who had no patience for extra keystrokes or unwieldy procedures developed this program to make clinic life easier, not more difficult. The program is fast, efficient, self-guiding, and inherently appealing to users because it saves them time and effort.
+      <br>
+      Because this clinic management software has been “battle tested” over fifteen years of daily clinical operations, new users can rest assured that the program will function as promised, while offering practice management solutions such as:
+      <ul>
+        <li>Multiple navigation methods to accommodate varying staff preferences</li>
+         <li> A Staff Dashboard that provides a snapshot of today’s priorities</li>
+         <li> A Patient Dashboard that centralizes all patient information in a single screen</li>
+          <li>An Executive Dashboard that enables instant analysis of key agency metrics</li>
+         <li> Comprehensive manuals, quick-start guides, training videos, and an intelligent problem reporting system to assist when questions arise</li>
+      </ul>
+    </p>
+  </div>
+  <div class="content-img">
+    <img src="new-images/solutionn-3.JPG" loading="lazy" alt="">
+  </div>
+</div>
+ <div class="marqee-swipe-carousel-container">
+  <div class="marqee-swipe-carousel">
+      <!-- First set of 5 images -->
+      <div class="marqee-swipe-image-set">
+        
+          <img src="new-images/markee/d-8.JPG" loading="lazy" alt="HIMS">
+          <img src="new-images/markee/d-10.JPG" loading="lazy" alt="HIMS">
+       <img src="new-images/markee/d-d.JPG" loading="lazy" alt="HIMS">
+          <img src="new-images/markee/d-11.JPG" loading="lazy" alt="HIMS">
+       
+          <img src="new-images/markee/d-12.JPG" loading="lazy" alt="HIMS">
+          <img src="new-images/markee/d-13.JPG" loading="lazy" alt="HIMS">
+          <img src="new-images/markee/d-14.JPG" loading="lazy" alt="HIMS">
+          
+          <img src="new-images/markee/d-16.JPG" loading="lazy" alt="HIMS">
+      </div>
+      <!-- Second set of 5 images  -->
+      <div class="marqee-swipe-image-set">
+        
+        <img src="new-images/markee/d-b.JPG" loading="lazy" alt="HIMS">
+     
+        <img src="new-images/markee/d-c.JPG" loading="lazy" alt="HIMS">
+     
+        <img src="new-images/markee/d-11.JPG" loading="lazy" alt="HIMS">
+       
+        <img src="new-images/markee/d-14.JPG" loading="lazy" alt="HIMS">
+        
+        <img src="new-images/markee/d-10.JPG" loading="lazy" alt="HIMS">
+    </div>
+     
+  </div>
+</div>
+  <!-- Footer with Parallax Image -->
+<footer class="footer parallax-footer">
+  <div class="container">
+      <div class="row">
+          <!-- About Section -->
+          <div class="col-md-4">
+           
+            <ul style="color: white;">
+              <li class="f-h"> Clinic Roles</li>
+                <li style="color: white;">Clinic Administrators</li>
+                <li style="color: white;">Medical Billers</li>
+                <li   style="color: white;">Prescribers</li>
+                <li  style="color: white;">Healthcare Providers</li>
+                <li  style="color: white;">Clinical Supervisors</li>
+                <li  style="color: white;">Support Staff</li>
+            </ul>
+          </div>
+          
+     
+          <div class="col-md-4">
+            
+            <ul style="color: white;">
+              <li class="f-h">Modules</li>
+                <li style="color: white;">Pharmacy</li>
+                <li style="color: white;">Radiology</li>
+                <li   style="color: white;">Nursing unit</li>
+                <li  style="color: white;">Reception</li>
+                <li  style="color: white;">HR modules</li>
+                <li  style="color: white;">Admin</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            
+            <ul style="color: white;">
+              <li class="f-h">Contact Us</li>
+                <li style="color: white;">Techohash Solutions</li>
+                <li style="color: white;">Office #233, M Dubai Tower</li>
+                <li   style="color: white;">Lethrar Road, Khannapul,</li>
+                <li  style="color: white;">Islamabad</li>
+                <li  style="color: white;">+92 3165670646</li>
+              
+            </ul>
+          </div>
+
+  <!-- Footer Bottom Section -->
+  <div class="footer-bottom">
+      <div class="footer-bottom-para">
+          <p style="color: white;">&copy; 2024 TechoHash Solutions. All Rights Reserved | <a href="privacy-policy.html">Privacy Policy</a></p>
+      </div>
+      <div class="footer-images">
+          <img src="f-botom-img1.webp" alt="Healthcare Technology">
+          <img src="f-bottom-img2.webp" alt="Hospital Management System">
+          <img src="f-bottom-img3.webp" alt="EHR Software">
+          <img src="f-bottom-img4.webp" alt="Medical Software Solutions">
+      </div>
+  </div>
+</footer>
+    <!-- Javascript -->
+      
+         <!-- Load particles.js library with defer -->
+         <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0" defer></script>
+
+         <!-- Inline script for initializing particles.js -->
+         <script>
+           document.addEventListener("DOMContentLoaded", function() {
+             particlesJS("particles-js", {
+               "particles": {
+                 "number": {
+                   "value": 80
+                 },
+                 "size": {
+                   "value": 3
+                 }
+               },
+               "interactivity": {
+                 "events": {
+                   "onhover": {
+                     "enable": true,
+                     "mode": "repulse"
+                   }
+                 }
+               }
+             });
+           });
+         </script>
+               <script src="mode.js" async></script>
+               <script src="scripts.js" defer></script>
+               
+</body>
+</html>

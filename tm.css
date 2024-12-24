@@ -1,0 +1,165 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .parallax-one {
+    background-image: url('clinic-banner.png'); /* Make sure this path is correct */
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .first-section, .exp-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .first-section {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .first-section .content {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .first-section .content h2 {
+    font-size: 35px;
+    color: blue;
+  }
+  
+  .first-section .content p {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: left;
+  }
+  
+  .exp-section {
+    background: #f7f7f7;
+    color: black;
+    padding: 50px 20px;
+  }
+  
+  .exp-section .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .exp-section .team-member {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    flex: 1;
+    max-width: 1000px; /* Optional: Set a max-width for the team member container */
+  }
+  
+  .tm-img, .tm-para {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .tm-img img {
+    width: 350px;
+    height: auto;
+    
+  }
+  
+  .tm-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    
+  }
+  
+  .tm-para h3 {
+    margin: 0 0 10px;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .tm-para p {
+    margin: 0 0 10px;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: black !important;
+  }
+  
+  .navbar .navbar-brand {
+    color: black !important;
+  }
+  /* ########## footer ########### */
+/* Parallax Footer */
+.parallax-footer {
+    background-image: url('clinic-banner.png'); /* Ensure this path is correct */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+  }
+  
+  .parallax-footer .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .footer-bottom {
+   
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-images img {
+    max-width: 100px; /* Adjust as needed */
+    margin: 0 10px; /* Space between images */
+  }
+  
+  /* Flex row layout for larger screens */
+  @media (min-width: 768px) {
+    .footer-images {
+      flex-direction: row;
+    }
+  }
+  
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer .row {
+      flex-direction: column;
+    }
+  
+    .footer .row .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  

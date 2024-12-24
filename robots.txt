@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.xml-sitemaps.com/download/www.techohash.com-be9ea8543/sitemap.html?view=1
